@@ -1,0 +1,36 @@
+# --- TyranoScript / ゲーム実行時生成データ ---
+# プレイヤーのセーブデータ・環境設定(実行するたびに生成される)
+data/save/
+data/savedata/
+data/sys/environment.json
+
+# 一時ファイル・キャッシュ
+data/tmp/
+tyrano/tmp/
+
+# --- ティラノスタジオ関連 ---
+# ティラノスタジオ本体をプロジェクト内に置いた場合(本来は入れない想定)
+TyranoStudio/
+*.exe
+*.app/
+
+# ティラノスタジオが生成する設定・ログ
+*.tyranostudio
+studio_data/
+
+# --- OS / エディタ由来のゴミファイル ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# --- 素材の作業用ファイル(未書き出しの生データなど) ---
+# 必要に応じて調整してください(例: PSD/CLIPなど大容量の元データを分離したい場合)
+# *.psd
+# *.clip
+
+# --- 圧縮・アーカイブの一時展開物 ---
+*.zip
+*.tmp
